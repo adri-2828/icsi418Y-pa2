@@ -1,5 +1,7 @@
-require("dotenv").config();
+require("dotenv").config(); //load environment variables
 
+
+//importing packages!! 
 const express = require("express");
 const cors = require("cors");
 const { MongoClient } = require("mongodb");
